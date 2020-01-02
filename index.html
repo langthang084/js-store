@@ -1,0 +1,31 @@
+﻿<html>
+	<head>
+		<title>Tool Set quuyền</title>
+		<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+		<script src='https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js'></script>
+        <script src='https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js'></script>
+		<script src='https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js'></script>
+		<script>
+			var firebaseConfig = {
+			  apiKey: "AIzaSyCJGeDLUBfkhO7QqsQ0d0LvQ98QSQXy4VY",
+			  authDomain: "loginproject-f47ec.firebaseapp.com",
+			  databaseURL: "https://loginproject-f47ec.firebaseio.com",
+			  projectId: "loginproject-f47ec",
+			  storageBucket: "loginproject-f47ec.appspot.com",
+			  messagingSenderId: "181154559376",
+			  appId: "1:181154559376:web:e7c308ccfe32f33476ef15",
+			  measurementId: "G-232CM4YQJC"
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+		</script>
+	</head>
+	<body>
+		<form>
+			<input name='email' type='email' placeholder='Nhập địa chỉ email cần set'/>
+			<button type='submit'>Set</button>
+		</form>
+		<script src='init.js'></script>
+	</body>
+</html>
